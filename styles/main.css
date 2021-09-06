@@ -1,11 +1,13 @@
+/* Colors Used: #ECD8E0, #242333, #BAD8E0 */
+
 html {
-  background-color: rgb(176, 179, 151);
+  background-color: #bad8e0;
 }
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background-color: #f8fafc;
-  color: #333333;
+  background-color: #bad8e0;
+  /* color: #c; */
   font-size: 20px;
   margin-left: 200px;
   margin-right: 200px;
@@ -15,6 +17,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 30px;
+  color: #242333;
 }
 
 .footer {
@@ -31,7 +34,7 @@ body {
 div > a {
   margin: 10px;
   text-decoration: none;
-  color: #333333;
+  color: #242333;
 }
 
 div > a:hover {
