@@ -31,6 +31,12 @@ body {
   text-align: start;
 }
 
+.fas,
+.fab {
+  font-size: 56px;
+  margin: 20px;
+}
+
 div > a {
   margin: 10px;
   text-decoration: none;
@@ -52,10 +58,29 @@ div > a:hover {
 }
 
 #techdiv {
+  text-align: center;
 }
 
 #postsdiv {
+  text-align: center;
 }
 
 #contactdiv {
+  text-align: center;
+}
+
+#leftskill {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+#rightskill {
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+#contactdiv2 {
+  text-align: center;
 }
