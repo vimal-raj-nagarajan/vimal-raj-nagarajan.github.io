@@ -1,0 +1,58 @@
+html {
+  background-color: rgb(176, 179, 151);
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f8fafc;
+  color: #333333;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/* third color #1677be */
+.outerdiv {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  text-align: start;
+}
+
+div > a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+
+div > a:hover {
+  color: #1677be;
+}
+
+#titlediv,
+#titlediv > h3 {
+  display: inline;
+}
+
+#menudiv {
+  display: inline;
+  float: right;
+}
+
+#techdiv {
+}
+
+#postsdiv {
+}
+
+#contactdiv {
+}
