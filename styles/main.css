@@ -12,6 +12,20 @@ body {
   margin-left: 200px;
   margin-right: 200px;
 }
+
+img {
+  border-radius: 10%;
+}
+
+div > a {
+  margin: 10px;
+  text-decoration: none;
+  color: #242333;
+}
+
+div > a:hover {
+  color: #1677be;
+}
 /* third color #1677be */
 .outerdiv {
   margin-left: 20px;
@@ -37,16 +51,6 @@ body {
   margin: 20px;
 }
 
-div > a {
-  margin: 10px;
-  text-decoration: none;
-  color: #242333;
-}
-
-div > a:hover {
-  color: #1677be;
-}
-
 #titlediv,
 #titlediv > h3 {
   display: inline;
@@ -57,30 +61,36 @@ div > a:hover {
   float: right;
 }
 
-#techdiv {
-  text-align: center;
-}
-
-#postsdiv {
-  text-align: center;
-}
-
+#techdiv,
+#aboutdiv,
+#postsdiv,
 #contactdiv {
   text-align: center;
 }
 
 #leftskill {
-  display: inline-block;
   float: left;
   width: 50%;
 }
 
 #rightskill {
-  display: inline-block;
-  float: right;
+  float: left;
   width: 50%;
 }
 
 #contactdiv2 {
   text-align: center;
+}
+
+#imgdiv {
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+
+#aboutdiv {
+  width: 70%;
+  float: left;
+  display: inline-block;
+  text-align: left;
 }
