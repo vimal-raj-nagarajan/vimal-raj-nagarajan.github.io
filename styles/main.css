@@ -1,16 +1,18 @@
 /* Colors Used: #ECD8E0, #242333, #BAD8E0 */
 
 html {
-  background-color: #c7e5ed;
+  background-color: #d4f2fa;
 }
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background-color: #d4f2fa;
+  background-color: #eeffff;
   /* color: #c; */
   font-size: 20px;
   margin-left: 200px;
   margin-right: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 img {
@@ -18,13 +20,15 @@ img {
 }
 
 div > a {
-  margin: 10px;
+  padding: 10px;
   text-decoration: none;
   color: #242333;
+  margin: 0;
 }
 
 div > a:hover {
   color: #1677be;
+  text-decoration: underline;
 }
 /* third color #1677be */
 .outerdiv {
@@ -93,4 +97,23 @@ div > a:hover {
   float: left;
   display: inline-block;
   text-align: left;
+}
+
+.static {
+  width: 1000px;
+  padding-left: 40px;
+}
+
+#imghalf1 {
+  width: 45%;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+#imghalf2 {
+  width: 45%;
+
+  display: inline-block;
 }
