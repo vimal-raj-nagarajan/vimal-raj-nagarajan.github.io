@@ -18,6 +18,14 @@ div > a:hover {
   text-decoration: underline;
 }
 /* third color #1677be */
+
+hr {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-bottom-width: thin;
+}
 .outerdiv {
   width: 70%;
   margin: auto;
