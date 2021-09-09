@@ -19,10 +19,11 @@
     </div>
     <div id="menudiv">
         <a href="../index.html">Home</a>
-        <a href="#techdiv">Tech.skills</a>
+        <a href="../index.html#techdiv">Tech.skills</a>
         <a href="template.html">Blog</a>
-        <a href="#contactdiv">Contact Me</a>
+        <a href="../index.html#contactdiv">Contact Me</a>
     </div>
+    <hr>
   </div>
   <div class="outerdiv">
     <p>In a webpage, the position of an element being displayed is determined by two things: 1. the height and width of the element 2. the order of the element in the html document </p>
@@ -33,17 +34,28 @@
     <h4>1. Static</h4>
     <p>As we know, the elements in html will have some default styles applied by the browser. The 'position' is one such property whic gets applied on all html elements. The default value the browser applies is static. Static positioning goes along with the html rules and keeps to the default html flow. Almost always, we wont be using this value in our development. This is something that gets applied default by the browser.</p>
     <img class ="static"src="../images/pisition_static.png" alt="position_default_static">
+    <br><br>
     <h4>2. Relative</h4>
     <p>This allows us to position the element relative to how it would have been positioned. Just the 'position: relative' peoperty does not chnage the position of the element. It has to be combined with one or more of the attributes: top, left, bottom or right. In the below screen (left), when the positioning is static(default), the squares confirms to the flow of the html document. When the positioning is set to relative with the attribute values (right screen), the teal box has moved accordingly. It has been pushed 30px from the top toward bottom and 20px from the left toward the right. An easy to  It is important to note that this does not affect any other elements in the html flow. </p>
       <img src="../images/Rel1.png" alt="pic" id="imghalf1">
       <img src="../images/rel2.png" alt="pic" id="imghalf2">
+      <br><br>
     <h4>3. Absolute</h4>
     <p>The naming in this positioning is a bit tricky. The element with the absolute position will be placed relative to its parent element. Let us see an example. The pink box with a absolute positioning and attribute of '60px right', is pushed from the right of its parent element which is having a relative or absolute position </p>
     <img class ="static" src="../images/Absolute.png" alt="pic">
+    <br><br>
     <h4>4. Fixed</h4>
-    <p>The fixed positioning allows the element to be fixed in its position. When the user scrolls through the web page, the element does not disapper and it is fixed in the same position. </p>
+    <p>The fixed positioning allows the element to be fixed in its position. When the user scrolls through the web page, the element does not disapper and it is fixed in the same position. Notice in the below image the rectangular box is displayed when the page is scrolled.</p>
     <img class ="static" src="../images/fixed.png" alt="pic">
+    <br><br>
+    <div class="footer">
+      <footer>
+        Copyright 2021 &#169 created by Vimal
+      </footer>
+    </div>
   </div>
+
+  
   
 </body>
 </html>
