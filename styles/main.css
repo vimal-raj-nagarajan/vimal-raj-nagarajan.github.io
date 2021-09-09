@@ -67,7 +67,8 @@ div > a:hover {
 
 #techdiv,
 #aboutdiv,
-#contactdiv {
+#contactdiv,
+#aboutme {
   text-align: center;
 }
 
@@ -101,7 +102,10 @@ div > a:hover {
   /* float: left; */
   display: inline-block;
   text-align: left;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  position: relative;
+  top: -40px;
+  left: 50px;
 }
 
 .static {

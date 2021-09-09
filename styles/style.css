@@ -59,6 +59,10 @@ hr {
   float: right;
 }
 
+#aboutme {
+  text-align: center;
+}
+
 /* #techdiv,
 #aboutdiv,
 #contactdiv {
