@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-div > a {
+#menudiv > a {
   padding: 10px;
   text-decoration: none;
   color: #242333;
@@ -61,6 +61,22 @@ hr {
 
 #aboutme {
   text-align: center;
+}
+
+#left {
+  width: 48%;
+  float: left;
+  font-size: 16px;
+}
+
+#left > p {
+  padding-right: 15px;
+}
+
+#right {
+  width: 48%;
+  float: right;
+  font-size: 16px;
 }
 
 /* #techdiv,
