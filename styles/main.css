@@ -1,42 +1,109 @@
-/* Colors Used: #ECD8E0, #242333, #BAD8E0 */
-
 body {
-  font-family: 'Noto Sans KR', sans-serif;
-  background-color: #eeffff;
-  color: #242333;
-  font-size: 20px;
+  font-family: charter, Georgia, Cambria, 'Times New Roman', Times, serif;
+  background-color: #efefef;
+  color: rgba(41, 41, 41, 1);
+  font-size: 1.125rem;
+}
+/* Styling for nav - from here */
+#nav {
+  width: 60%;
+  margin: auto;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+#menudiv {
+  float: right;
+}
+
+#menudiv > ul {
   margin: 0;
+  padding: 0;
 }
 
-img {
+#menudiv > ul > li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 25px;
+}
+
+#menudiv > ul > li > a,
+#nav > a,
+#contactdiv2 > a,
+#leftblog > a,
+#rightblog > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(41, 41, 41, 1);
+}
+
+#nav > a > h3 {
+  display: inline;
+}
+/* Styling for nav - till here */
+
+/* Styling for about me and pic -  from here */
+.outerdiv {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+#imgdiv {
+  width: 20%;
+  /* float: left; */
+  display: inline-block;
+}
+
+#aboutdiv {
+  width: 70%;
+  /* float: left; */
+  display: inline-block;
+  text-align: left;
+  /* margin-left: 50px; */
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
+
+#imgdiv > img {
+  border-radius: 2%;
+}
+/* Styling for about me and pic -  till here */
+/* Styling for Leftskills & rightskills  -  from here */
+#leftskill {
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+}
+
+#rightskill {
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+}
+/* Styling for Leftskills & rightskills  -  till here */
+/* img {
   border-radius: 5%;
-}
+} */
 
-hr {
+/* hr {
   border-top-style: none;
   border-right-style: none;
   border-bottom-style: solid;
   border-left-style: none;
   border-bottom-width: thin;
-}
-
-div > a {
-  padding: 10px;
-  text-decoration: none;
-  color: #242333;
-  margin: 0;
-}
-
-div > a:hover {
-  color: #1677be;
-  text-decoration: underline;
-}
+} */
 /* third color #1677be */
-.outerdiv {
-  width: 70%;
-  margin: auto;
-  padding-top: 30px;
-}
 
 .footer {
   text-align: center;
@@ -60,71 +127,82 @@ div > a:hover {
   display: inline;
 }
 
-#menudiv {
-  display: inline;
-  float: right;
-}
-
 #techdiv,
-#aboutdiv,
 #contactdiv,
 #aboutme {
   text-align: center;
-}
-
-#leftskill {
-  float: left;
-  width: 50%;
-}
-
-#rightskill {
-  float: left;
-  width: 50%;
-}
-
-#contactdiv {
-  width: 100%;
-  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 40px;
 }
 
 #contactdiv2 {
   text-align: center;
 }
 
-#imgdiv {
-  width: 20%;
-  /* float: left; */
-  display: inline-block;
+/* Blog page styling - start */
+
+#leftblog {
+  width: 48%;
+  float: left;
+  font-size: 16px;
 }
 
-#aboutdiv {
-  width: 70%;
-  /* float: left; */
-  display: inline-block;
-  text-align: left;
-  /* margin-left: 50px; */
-  position: relative;
-  top: -40px;
-  left: 50px;
+#leftblog > p {
+  padding-right: 15px;
 }
+
+#rightblog {
+  width: 48%;
+  float: right;
+  font-size: 16px;
+}
+
+#leftblog > button > a,
+#rightblog > button > a {
+  text-decoration: none;
+  color: rgba(41, 41, 41, 1);
+}
+
+#leftblog > button,
+#rightblog > button {
+  border-radius: 6px;
+  border: none;
+  background-color: #e7e4e4;
+  height: 25px;
+}
+
+#leftblog > button:hover,
+#rightblog > button:hover {
+  background-color: #b8bfc2;
+}
+
+/* Blog page styling - End */
 
 .static {
-  width: 700px;
-  margin-left: 120px;
-  margin-right: 120px;
-  border-radius: 2%;
+  width: 80%;
+  margin: auto;
+  margin-left: 60px;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+#imgsmall {
+  margin-left: 60px;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px 5px #ccc;
 }
 
 #imghalf1 {
   width: 45%;
-
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-right: 60px;
   display: inline-block;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px 5px #ccc;
 }
 
 #imghalf2 {
   width: 45%;
-
+  border-radius: 1%;
   display: inline-block;
+  box-shadow: 5px 5px 5px 5px #ccc;
 }
