@@ -194,6 +194,14 @@ body {
   box-shadow: 5px 5px 5px 5px #ccc;
 }
 
+.growthimg {
+  width: 80%;
+  margin: auto;
+  margin-left: 60px;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px 5px #ccc;
+}
+
 #imgsmall {
   margin-left: 60px;
   border-radius: 1%;
